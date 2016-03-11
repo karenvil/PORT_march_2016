@@ -1,0 +1,6 @@
+/* Add here all your CSS customizations */
+@media (min-width: 992px) {
+	#header .header-nav-main nav > ul > li > a:not(.dropdown-toggle) {
+		padding-bottom: 10px !important;
+	}
+}
