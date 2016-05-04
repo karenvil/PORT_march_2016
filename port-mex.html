@@ -1,8 +1,7 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 	<head>
 
-		<!-- Basic -->
 		<meta charset="utf-8">
 		<title>About Me |Ana Villarreal</title>		
 		<meta name="keywords" content="HTML5 Template" />
@@ -15,8 +14,7 @@
 		<!-- Web Fonts  -->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
 
-
-		<!-- Fav ICON -->
+		
 		<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
@@ -34,7 +32,6 @@
 		<meta name="msapplication-TileColor" content="#2d89ef">
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 		<meta name="theme-color" content="#ffffff">
-
 
 
 		<!-- Vendor CSS -->
@@ -122,15 +119,33 @@
 
 						<nav class="nav-main mega-menu">
 							<ul class="nav nav-pills nav-main" id="mainMenu">
-								<li >
+								<li class="dropdown">
 									<a class="dropdown-toggle" href="index.html">
 										Home
+										<i class="fa fa-angle-down"></i>
 									</a>
+									<ul class="dropdown-menu">
+										<li><a href="index.html">Home - Default</a></li>
+										<li><a href="index-1.html">Home - Corporate <span class="tip">hot</span></a></li>
+										<li><a href="index-2.html">Home - Color</a></li>
+										<li><a href="index-3.html">Home - Light</a></li>
+										<li><a href="index-4.html">Home - Video</a></li>
+										<li><a href="index-5.html">Home - Video - Light</a></li>
+										<li><a href="index-one-page.html">One Page Website</a></li>
+										<li class="dropdown-submenu">
+											<a href="#">Sliders</a>
+											<ul class="dropdown-menu">
+												<li><a href="index.html">Revolution Slider</a></li>
+												<li><a href="index-slider-2.html">Nivo Slider</a></li>
+											</ul>
+										</li>
+									</ul>
 								</li>
 								
 								<li >
 									<a class="dropdown-toggle" href="about-me.html">
 										About Me
+										
 									</a>
 									
 								</li>
@@ -138,13 +153,15 @@
 								<li class="dropdown active">
 									<a class="dropdown-toggle" href="#">
 										Portfolio
+										
 									</a>
 									
 								</li>
 								
-								<li>
+							<li>
 									<a class="dropdown-toggle" href="contact-us.html">
 										Contact Me
+										
 									</a>
 									
 								</li>
@@ -160,15 +177,18 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
+							<!--********Home/ Portfolio  Link thie the correct index page!!!!******-->
 								<ul class="breadcrumb">
-									<li><a href="#">Home</a></li>
+									<li><a href="index.html">Home</a></li>
 									<li class="active">Portfolio</li>
 								</ul>
+							<!--********Home/ Portfolio  Link thie the correct index page!!!!******-->
+
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<h1>My Portfolio</h1>
+								<h1>Composition - Pesonal Project</h1>
 							</div>
 						</div>
 					</div>
@@ -176,56 +196,139 @@
 
 				<div class="container">
 
-					<h2>Portfolio</h2>
+					<div class="portfolio-title">
+						<div class="row">
+							<div class="portfolio-nav-all col-md-1">
+								<a href="portfolio-3-columns.html" data-tooltip data-original-title="Back to list"><i class="fa fa-th"></i></a>
+							</div>
+							<div class="col-md-10 center">
+								<h2 class="shorter">Mexico - Typography</h2>
+							</div>
+							<div class="portfolio-nav col-md-1">
+								<a href="port-ilust.html" class="portfolio-nav-prev" data-tooltip data-original-title="Previous"><i class="fa fa-chevron-left"></i></a>
+								<a href="port-comp.html" class="portfolio-nav-next" data-tooltip data-original-title="Next"><i class="fa fa-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
 
-					<ul class="nav nav-pills sort-source" data-sort-id="portfolio" data-option-key="filter">
-						<li data-option-value="*" class="active"><a href="#">Show All</a></li>
-						<li data-option-value=".websites"><a href="#">Websites</a></li>
-						<li data-option-value=".logos"><a href="#">Logos</a></li>
-						<li data-option-value=".game"><a href="#">Game Development</a></li>
-						<li data-option-value=".3D"><a href="#">3D</a></li>
-						<li data-option-value=".print"><a href="#">Prints</a></li>
-						<li data-option-value=".mg"><a href="#">Motion Graphics</a></li>
-						<li data-option-value=".ilust"><a href="#">Illustrations</a></li>
-						<li data-option-value=".compositing"><a href="#">Compositing</a></li>
+					<hr class="tall">
+
+					<div class="row">
+						<div class="col-md-4">
+
+							<div class="owl-carousel" data-plugin-options='{"items": 1}'>
+								<div>
+									<div class="thumbnail">
+										<img alt="" class="img-responsive" src="img/projects/mex/mexS.jpg">
+									</div>
+								</div>
+						
+							</div>
+
+						</div>
+
+						<div class="col-md-8">
+
+							<div class="portfolio-info">
+								<div class="row">
+									<div class="col-md-12 center">
+										<ul>
+											<li>
+												<a href="#" data-tooltip data-original-title="Like"><i class="fa fa-heart"></i>59</a>
+											</li>
+											<li>
+												<i class="fa fa-calendar"></i> April 12 2015
+											</li>
+											<li>
+												<i class="fa fa-tags"></i> <a href="#">Typography</a>, <a href="#">Creativity</a> <a href="#">FFFF</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<h4>Mexico <strong>Typography</strong></h4>
+							<p class="taller"> Personal project to tryout image compositing.</p>
+
+							
+
+							<ul class="portfolio-details">
+								<li>
+									<p><strong>Skills:</strong></p>
+
+									<ul class="list list-skills icons list-unstyled list-inline">
+										<li><i class="fa fa-check-circle"></i> Compostition</li>
+										<li><i class="fa fa-check-circle"></i> Photoshop</li>
+										<li><i class="fa fa-check-circle"></i> Creativity</li>
+										
+									</ul>
+								</li>
+								<li>
+									<p><strong>Client:</strong></p>
+									<p>Personal Project</p>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+
+					<section>	
+						<div class="container">
+					<div class="col-md-12 center">
 
 
-					</ul>
+						<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/NVX1Plaw-T4' frameborder='0' allowfullscreen></iframe></div>
 
-					<hr />
+
+						<a class="img-thumbnail lightbox" href="img/projects/monG/monG1.jpg" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="img/projects/monG/monG1.jpg">
+						</a>
+
+
+							<a class="img-thumbnail lightbox" href="img/projects/monG/monG3.jpg" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="img/projects/monG/monG3.jpg">
+						</a>
+
+
+							
+							<a class="img-thumbnail lightbox" href="img/projects/monG/monG2.jpg" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="img/projects/monG/monG2.jpg">
+						</a>
+
+						
+							<a class="img-thumbnail lightbox" href="img/projects/monG/monG4.jpg" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="img/projects/monG/monG4.jpg">
+						</a>
+
+						<a class="img-thumbnail lightbox" href="img/projects/monG/monG5.jpg" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="img/projects/monG/monG5.jpg">
+						</a>
+
+
+						<a class="img-thumbnail lightbox" href="img/projects/monG/monG6.jpg" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="img/projects/monG/monG6.jpg">
+						</a>
+
+
+
+
+						</div>
+						</div>
+					</section>
+
+
+
+
+					<hr class="tall" />
 
 					<div class="row">
 
-						<ul class="portfolio-list sort-destination" data-sort-id="portfolio">
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item websites">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-cris.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/cris/website-cris.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Crisalum</span>
-											<span class="thumb-info-type">Website</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item mg">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-Mo.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/spMo/spMo.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">SP Fotografia</span>
-											<span class="thumb-info-type">Motion Graphics</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item ilust">
+						<div class="col-md-12">
+							<h3>Related <strong>Work</strong></h3>
+						</div>
+
+						<ul class="portfolio-list">
+							<li class="col-md-3 col-xs-6">
 								<div class="portfolio-item img-thumbnail">
 									<a href="port-ilust.html" class="thumb-info">
 										<img alt="" class="img-responsive" src="img/projects/ilust/dto-c.jpg">
@@ -239,8 +342,35 @@
 									</a>
 								</div>
 							</li>
-
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item compositing">
+							<li class="col-md-3 col-xs-6">
+								<div class="portfolio-item img-thumbnail">
+									<a href="port-cris.html" class="thumb-info">
+										<img alt="" class="img-responsive" src="img/projects/cris/website-cris.jpg">
+										<span class="thumb-info-title">
+											<span class="thumb-info-inner">Crisalum</span>
+											<span class="thumb-info-type">Website</span>
+										</span>
+										<span class="thumb-info-action">
+											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li class="col-md-3 col-xs-6">
+							<div class="portfolio-item img-thumbnail">
+									<a href="port-comp2.html" class="thumb-info">
+										<img alt="" class="img-responsive" src="img/projects/comp/2compC.jpg">
+										<span class="thumb-info-title">
+											<span class="thumb-info-inner">Double Exposure</span>
+											<span class="thumb-info-type">Compositing</span>
+										</span>
+										<span class="thumb-info-action">
+											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li class="col-md-3 col-xs-6">
 								<div class="portfolio-item img-thumbnail">
 									<a href="port-comp.html" class="thumb-info">
 										<img alt="" class="img-responsive" src="img/projects/comp/comp.jpg">
@@ -254,128 +384,6 @@
 									</a>
 								</div>
 							</li>
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item 3D ">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-monG.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/monG/monGcover.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Monster Girl</span>
-											<span class="thumb-info-type">3D</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item compositing">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-comp2.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/comp/2compC.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Double Exposure</span>
-											<span class="thumb-info-type">Compositing</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item mg logo">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-Mo2.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/spMo/spMo2.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">SP Fotografia</span>
-											<span class="thumb-info-type">Motion GRaphics</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item websites logo">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-vim.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/Vim/vimC.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Vimutki</span>
-											<span class="thumb-info-type">Website</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item 3D">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-pin.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/ping/pingC.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Artic Pinguins</span>
-											<span class="thumb-info-type">3D Desing</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-
-
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item game">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-ga.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/game/gaC.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Run Run Jack</span>
-											<span class="thumb-info-type">Game Development</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-
-
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item mg">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-anim.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/ani/aniC.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Eddies Farm</span>
-											<span class="thumb-info-type">Flash Animation</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-
-
-							<li class="col-md-3 col-sm-6 col-xs-12 isotope-item compositing">
-								<div class="portfolio-item img-thumbnail">
-									<a href="port-mex.html" class="thumb-info">
-										<img alt="" class="img-responsive" src="img/projects/mex/mexS.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Mexico</span>
-											<span class="thumb-info-type">Compositing</span>
-										</span>
-										<span class="thumb-info-action">
-											<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</a>
-								</div>
-							</li>
-
-
-
-
 						</ul>
 
 					</div>
@@ -383,8 +391,11 @@
 				</div>
 
 			</div>
+					
 
-			<footer id="footer">
+
+
+		<footer id="footer">
 				
 					  <div class="navbar navbar-default navbar-fixed-bottom">
 				    
